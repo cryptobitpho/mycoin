@@ -57,9 +57,9 @@ checkValid(){
 }
 }
 
-let jsChain = new Blockchain();
-jsChain.addBlock(new Block("10/26/2018",{amount: 5}));
-jsChain.addBlock(new Block("10/27/2018",{amount: 10}));
+let PortHopeOntarioCoin = new Blockchain();
+PortHopeOntarioCoin.addBlock(new Block("10/26/2018",{amount: 5}));
+PortHopeOntarioCoin.addBlock(new Block("10/27/2018",{amount: 10}));
 
-console.log(JSON.stringify(jsChain, null, 4));
-console.log("Is blockchain valid? " + jsChain.checkValid());
+console.log(JSON.stringify(PortHopeOntarioCoin, null, 4));
+console.log("Is blockchain valid? " + PortHopeOntarioCoin.checkValid());
