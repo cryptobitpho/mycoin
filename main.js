@@ -57,7 +57,7 @@ checkValid(){
 }
 }
 
-let jsChain = newBlockchain();
+let jsChain = new Blockchain();
 jsChain.addBlock(new Block("10/26/2018",{amount: 5}));
 jsChain.addBlock(new Block("10/27/2018",{amount: 10}));
 
